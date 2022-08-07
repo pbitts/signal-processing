@@ -15,7 +15,7 @@ audio.write(audio_filename)
 
 
 #Reading recorded audio
-audio_data = audio.read(audio_filename)
+audio_data = audio.read('recording0.wav')
 
 #Processing DFT
 signal = Signal_Processing(0,2,0.1)
